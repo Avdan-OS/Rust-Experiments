@@ -43,7 +43,7 @@ fn guessing() {
 fn get_random_number() -> i64 {
     let _random_number: i64 = thread_rng().gen_range(0, 11);
 
-    return _random_number;
+    _random_number
 }
 
 fn get_user_input() -> i64 {
@@ -55,5 +55,5 @@ fn get_user_input() -> i64 {
 
     let _int_guess: i64 = guess.trim().parse().unwrap();
 
-    return _int_guess;
+    _int_guess
 }
