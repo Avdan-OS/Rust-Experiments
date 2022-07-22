@@ -28,8 +28,8 @@ fn guessing() {
 
     loop {
         let guess = get_user_input();
-        if guess == random_number {
-            println!("Yeah, it was right, the number was {random_number}!");
+        if guess == target_number {
+            println!("Yeah, it was right, the number was {target_number}!");
             return;
         } else {
             println!("Sorry, Your answer was wrong!");
@@ -51,7 +51,5 @@ fn get_user_input() -> i64 {
         .read_line(&mut guess)
         .expect("Error while reading line!");
 
-    let _int_guess: i64 = guess.trim().parse().unwrap();
-
-    _int_guess
+    guess.trim().parse().unwrap()
 }
