@@ -15,7 +15,7 @@ fn main() {
 ╚═╝  ╚═╝    ╚═╝  ╚═══╝     ╚═════╝              ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝                                                                                                                                                                                                                                         
     ";
 
-    println!("{}", start_txt);
+    println!("{start_txt}");
     println!("Made by lucasodev - UNLICENSE");
     println!(" ");
     println!(" ");
@@ -31,7 +31,7 @@ fn guessing() {
     while guess_right == false {
         let guess = get_user_input();
         if guess == random_number {
-            println!("Yeah, it was right, the number was {}!", random_number);
+            println!("Yeah, it was right, the number was {random_number}!");
             guess_right = true;
         } else {
             println!("Sorry, Your answer was wrong!");
