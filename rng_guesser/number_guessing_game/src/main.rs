@@ -24,15 +24,13 @@ fn main() {
 }
 
 fn guessing() {
-    let random_number = get_random_number();
-    
-    let mut guess_right: bool = false;
+    let target_number = get_random_number();
 
-    while guess_right == false {
+    loop {
         let guess = get_user_input();
         if guess == random_number {
             println!("Yeah, it was right, the number was {random_number}!");
-            guess_right = true;
+            return;
         } else {
             println!("Sorry, Your answer was wrong!");
             continue;
