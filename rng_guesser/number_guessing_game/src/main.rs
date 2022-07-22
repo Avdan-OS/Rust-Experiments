@@ -19,8 +19,7 @@ fn main() {
     println!("Made by lucasodev - UNLICENSE");
     println!(" ");
     println!(" ");
- 
-
+    
     guessing();
 }
 
