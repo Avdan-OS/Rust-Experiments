@@ -10,6 +10,12 @@ A game that generates a random number and you have to guess which number that is
 
 Made by [lucasodev](https://github.com/LucasoDevDotTk)
 
+**Data types**
+
+Contains different data types
+
+Made by [TechStudent11](https://github.com/TechStudent11)
+
 **Simple website made in Rust**
 
 A simple 90s-stylish website written in Rust that prints "Hello world" using the Yew Library
