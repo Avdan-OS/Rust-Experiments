@@ -5,13 +5,7 @@ This repository is just a space for team memmbers to upload their experimental r
 ## Experiments
 
 **Simple website made in Rust**
-``` 
-// Path:
-./website
-// Code in:
-./website/src
-```
 
 Description: A simple 90s-stylish website written in Rust that prints "Hello world" using the Yew Library
 
-Made by https://github.com/LucasoDevDotTk, lucasodev#7792
+Made by https://github.com/akane6704
