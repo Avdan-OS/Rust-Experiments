@@ -15,3 +15,9 @@ Made by [lucasodev](https://github.com/LucasoDevDotTk)
 Contains different data types
 
 Made by [TechStudent11](https://github.com/TechStudent11)
+
+**Simple website made in Rust**
+
+A simple 90s-stylish website written in Rust that prints "Hello world" using the Yew Library
+
+Made by [akane](https://github.com/akane6704)
