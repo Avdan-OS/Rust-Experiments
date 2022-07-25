@@ -25,24 +25,24 @@ fn main() {
 
     // uint (same as signed int, but can't be negative)
 
-    // i32 (signed 32-bit integer)
+    // u32 (unsigned 32-bit integer)
     let _x: u32 = 2;
 
-    // i8 (signed 8-bit integer)
+    // u8 (unsigned 8-bit integer)
     let _x: u8 = 2;
 
-    // i16 (signed 16-bit integer)
+    // u16 (unsigned 16-bit integer)
     let _x: u16 = 2;
 
-    // i64 (signed 64-bit integer)
+    // u64 (unsigned 64-bit integer)
     let _x: u64 = 2;
 
-    // i128 (signed 128-bit integer)
+    // u128 (unsigned 128-bit integer)
     let _x: u128 = 2;
 
     ///////////////////////////////////////////////////////////////////
 
-    // Floating point value (f32 (single precision, 32-bits), f64 (double precision, 64-bits, default))
+    // Floating point value (f32 (single precision, 32-bit value), f64 (double precision, 64-bit value, default floating point type))
 
     let _x: f32 = 10.9;
     let _x: f64 = 10.9;
