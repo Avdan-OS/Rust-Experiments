@@ -21,3 +21,9 @@ Made by [TechStudent11](https://github.com/TechStudent11)
 A simple 90s-stylish website written in Rust that prints "Hello world" using the Yew Library
 
 Made by [akane](https://github.com/akane6704)
+
+**Advent of code**
+    **day 1**
+        completed day 1 exercises in rust
+
+        Made by [Padmanabh](https://github.com/Padmanabh82)
