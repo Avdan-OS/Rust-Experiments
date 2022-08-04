@@ -1,24 +1,19 @@
-use rand::thread_rng;
-use rand::Rng;
-
+//Idk why but compile times are faster when I do this
+use rand::*;
 use std::io;
 
 fn main() {
     println!("Program Started...");
 
-    let start_txt = "
+    println!("
 ██████╗     ███╗   ██╗     ██████╗              ██████╗ ██╗   ██╗███████╗███████╗███████╗███████╗██████╗ 
 ██╔══██╗    ████╗  ██║    ██╔════╝             ██╔════╝ ██║   ██║██╔════╝██╔════╝██╔════╝██╔════╝██╔══██╗
 ██████╔╝    ██╔██╗ ██║    ██║  ███╗            ██║  ███╗██║   ██║█████╗  ███████╗███████╗█████╗  ██████╔╝
 ██╔══██╗    ██║╚██╗██║    ██║   ██║            ██║   ██║██║   ██║██╔══╝  ╚════██║╚════██║██╔══╝  ██╔══██╗
 ██║  ██║    ██║ ╚████║    ╚██████╔╝            ╚██████╔╝╚██████╔╝███████╗███████║███████║███████╗██║  ██║
 ╚═╝  ╚═╝    ╚═╝  ╚═══╝     ╚═════╝              ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝                                                                                                                                                                                                                                         
-    ";
-
-    println!("{start_txt}");
-    println!("Made by lucasodev - UNLICENSE");
-    println!(" ");
-    println!(" ");
+    ");
+    println!("Made by lucasodev - UNLICENSE \n\n");
     
     guessing();
 }
@@ -39,7 +34,7 @@ fn guessing() {
 }
 
 fn get_random_number() -> i64 {
-    thread_rng().gen_range(0, 11) as i64
+    thread_rng().gen_range(0..11)
 }
 
 fn get_user_input() -> i64 {
