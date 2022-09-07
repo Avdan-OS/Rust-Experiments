@@ -21,3 +21,10 @@ Made by [TechStudent11](https://github.com/TechStudent11)
 A simple 90s-stylish website written in Rust that prints "Hello world" using the Yew Library
 
 Made by [akane](https://github.com/akane6704)
+
+**Who Asked**
+
+Simple ci app that asks you `Who asked?` cuz why not?
+
+Made by [Froxcey](https://github.com/Froxcey), under GPL-V3
+
